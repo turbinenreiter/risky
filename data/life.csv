@@ -1,0 +1,4 @@
+number,risk,likelihood,severity,comment,mitigation
+1,"risk of being unlucky",1;1;1;1;1;1;1;2;2,1;1;1;2;3;3;3;1;2,"being unlucky sucks","buy good luck charm"
+2,"risk of sudden death",1;1;1;2;2;2;2;3,1;2;3;1;1;1;2;2,"death is boring","prayer"
+3,"risk of slow death",1;1;1;1;1;1;1;1;1,1;1;2;2;2;3;3;3;3,"may hurt","live healthy"
