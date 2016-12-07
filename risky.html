@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro">
 
   <script src="risky.js"></script>
+  <script src="workshop.js"></script>
   <script src="main.js"></script>
 </head>
 
@@ -21,7 +22,16 @@
     <h1>risky - a weird risk assessment tool</h1>
   </header>
 
-  <input type="file" id="file-input" onchange="getFile()" />
+
+  <section>
+    <h2>Workshop</h2>
+    <button type="button" onclick="start_ws()">Start</button>
+  </section>
+
+  <section>
+    <h2>Report</h2>
+    <input type="file" id="file-input" onchange="getFile()" />
+  </section>
 
 <!--  <button type="button" onclick="genReport('data/ADCS.csv');">generate report</button>-->
 
